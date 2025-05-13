@@ -9,6 +9,7 @@ public class Filme{
     int totalDeAvaliacoes;
     double somaAvaliacoes;
 
+    //metodos
     void exibirDados(){
         System.out.println("Nome: " + nome);
         System.out.println("Gênero: " + genero);
@@ -24,6 +25,9 @@ public class Filme{
         somaAvaliacoes += nota;
         totalDeAvaliacoes++;
         this.nota = somaAvaliacoes / totalDeAvaliacoes;
-        
+    }
+
+    double pegaMedia(){
+        return somaAvaliacoes / totalDeAvaliacoes;
     }
 }
