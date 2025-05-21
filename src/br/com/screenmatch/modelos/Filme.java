@@ -43,13 +43,6 @@ public class Filme{
         this.nota = nota;
     }
 
-    public void setTotalDeAvaliacoes(int totalDeAvaliacoes) {
-        this.totalDeAvaliacoes = totalDeAvaliacoes;
-    }
-
-    public void setSomaAvaliacoes(double somaAvaliacoes) {
-        this.somaAvaliacoes = somaAvaliacoes;
-    }
 
     //metodos
     public void exibirDados(){
