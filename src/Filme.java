@@ -6,7 +6,7 @@ public class Filme{
     String sinopse;
     boolean incluidoNoPlano;
     double nota;
-    int totalDeAvaliacoes;
+    private int totalDeAvaliacoes;
     private double somaAvaliacoes;
 
     //metodos
