@@ -7,7 +7,7 @@ public class Filme{
     boolean incluidoNoPlano;
     double nota;
     int totalDeAvaliacoes;
-    double somaAvaliacoes;
+    private double somaAvaliacoes;
 
     //metodos
     void exibirDados(){
