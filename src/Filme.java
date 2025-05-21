@@ -9,6 +9,10 @@ public class Filme{
     private int totalDeAvaliacoes;
     private double somaAvaliacoes;
 
+    int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
+
     //metodos
     void exibirDados(){
         System.out.println("Nome: " + nome);

@@ -14,8 +14,7 @@ public class Main {
         filme1.avalia(9.0);
         filme1.avalia(6.0);
         filme1.avalia(8.0);
-        System.out.println(filme1.somaAvaliacoes);
-        System.out.println(filme1.totalDeAvaliacoes);
+        System.out.println(filme1.getTotalDeAvaliacoes());
         System.out.println(filme1.pegaMedia());
     }
 }
