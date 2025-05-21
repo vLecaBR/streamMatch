@@ -1,20 +1,22 @@
+package br.com.screenmatch.modelos;
+
 public class Filme{
-    String nome;
-    String genero;
-    int ano;
-    String duracao;
-    String sinopse;
-    boolean incluidoNoPlano;
-    double nota;
+    public String nome;
+    public String genero;
+    public int ano;
+    public String duracao;
+    public String sinopse;
+    public boolean incluidoNoPlano;
+    public double nota;
     private int totalDeAvaliacoes;
     private double somaAvaliacoes;
 
-    int getTotalDeAvaliacoes() {
+    public int getTotalDeAvaliacoes() {
         return totalDeAvaliacoes;
     }
 
     //metodos
-    void exibirDados(){
+    public void exibirDados(){
         System.out.println("Nome: " + nome);
         System.out.println("Gênero: " + genero);
         System.out.println("Ano: " + ano);
@@ -25,13 +27,13 @@ public class Filme{
         System.out.println("Total de avaliações: " + totalDeAvaliacoes);
     }
 
-    void avalia(double nota){
+    public void avalia(double nota){
         somaAvaliacoes += nota;
         totalDeAvaliacoes++;
         this.nota = somaAvaliacoes / totalDeAvaliacoes;
     }
 
-    double pegaMedia(){
+    public double pegaMedia(){
         return somaAvaliacoes / totalDeAvaliacoes;
     }
 }

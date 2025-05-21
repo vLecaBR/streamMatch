@@ -1,3 +1,5 @@
+import br.com.screenmatch.modelos.Filme;
+
 public class Main {
     public static void main(String[] args) {
         Filme filme1 = new Filme();
@@ -7,7 +9,7 @@ public class Main {
         filme1.duracao = "2h 32m";
         filme1.sinopse = "Harry Potter descobre que é um bruxo e vai para a escola de magia Hogwarts.";
         filme1.incluidoNoPlano = true;
-
+        
 
 
         filme1.exibirDados();
